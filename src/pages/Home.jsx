@@ -177,8 +177,9 @@ export default function Home() {
             From street stalls to weeknight dinners.
           </h2>
           <p className="parallax-band__lead">
-            Every recipe in Saveur comes from TheMealDB, a community-driven library
-            of dishes from cooks around the world.
+          Every recipe in Saveur comes from a curated collection of dishes shared by cooks from around the world.
+
+The platform brings together a diverse range of cuisines, making it easy to discover authentic recipes, explore new flavours, and find inspiration for your next meal.
           </p>
           <Button as={Link} to="/explore" variant="primary" withArrow>
             Browse the library

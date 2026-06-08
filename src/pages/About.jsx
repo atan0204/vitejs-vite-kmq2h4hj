@@ -41,22 +41,16 @@ export default function About() {
               transition={{ delay: 0.1, duration: 0.6 }}
             >
               <p className="about__lead">
-                Saveur is a small recipe explorer built as a study in calm,
-                food-forward web design. It pulls every recipe from{' '}
-                <a href="https://www.themealdb.com/" target="_blank" rel="noreferrer noopener" style={{ color: 'var(--color-primary)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>
-                  TheMealDB
-                </a>
-                , a free, community-maintained database of dishes
-                with thousands of cuisine entries and step-by-step instructions.
+              Saveur is a recipe browser made for cooking, not scrolling. Pick a cuisine, open a card, and go straight to a clean ingredient list and a step-by-step method. That's it.
+
+Designed with simplicity in mind, Saveur removes unnecessary distractions so users can focus on preparing great meals. Browse recipes by category, discover new dishes from around the world, and save your favourites for later. Whether you're a beginner or an experienced home cook, Saveur makes finding and following recipes quick, easy, and enjoyable.
               </p>
 
               <div style={{ marginTop: '2rem', display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
                 <Button as={Link} to="/explore" variant="primary" withArrow>
                   Start exploring
                 </Button>
-                <Button as="a" href="https://www.themealdb.com/" target="_blank" rel="noreferrer noopener" variant="secondary">
-                  Visit TheMealDB ↗
-                </Button>
+
               </div>
             </motion.div>
 
@@ -119,26 +113,7 @@ export default function About() {
             </div>
           </motion.section>
 
-          <motion.section
-            aria-labelledby="tech-stack"
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.6 }}
-            style={{ marginTop: '5rem' }}
-          >
-            <header className="section__header" style={{ marginBottom: '2rem' }}>
-              <span className="section__eyebrow">Behind the scenes</span>
-              <h2 id="tech-stack" className="section__title" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.25rem)' }}>
-                Built with thoughtful tools.
-              </h2>
-              <p className="section__lead" style={{ marginTop: '1rem' }}>
-                React for the UI, React Router for navigation, Motion.dev for the
-                small animations that make pages feel alive, and SimpleParallax for
-                the hero imagesl.
-              </p>
-            </header>
-          </motion.section>
+
         </div>
       </section>
     </PageWrapper>
