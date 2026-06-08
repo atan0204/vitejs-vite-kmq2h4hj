@@ -49,7 +49,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15, duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             >
-              Recipes worth <em>savouring</em>.
+              Recipes worth <em>savouring</em>
             </motion.h1>
             <motion.p
               className="hero__lead"

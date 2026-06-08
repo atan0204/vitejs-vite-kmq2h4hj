@@ -1,5 +1,5 @@
 /* ============================================================
-   Saveur — Design Tokens
+   Saveur Design Tokens
    ============================================================ */
 :root {
   --color-bg: #0A0A0A;
@@ -717,12 +717,12 @@ main {
   margin-bottom: 1.25rem;
 }
 
-.hero__eyebrow::before {
+/* .hero__eyebrow::before {
   content: "";
   width: 28px;
   height: 2px;
   background: var(--color-primary);
-}
+} */
 
 .hero__title {
   font-size: clamp(2.5rem, 6vw, 4.75rem);
