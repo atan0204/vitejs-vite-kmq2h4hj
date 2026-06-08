@@ -82,11 +82,11 @@ export default function Details() {
                   <dl className="details__stats">
                     <div>
                       <dt className="details__stat-label">Cuisine</dt>
-                      <dd className="details__stat-value">{meal.strArea || '—'}</dd>
+                      <dd className="details__stat-value">{meal.strArea || '-'}</dd>
                     </div>
                     <div>
                       <dt className="details__stat-label">Category</dt>
-                      <dd className="details__stat-value">{meal.strCategory || '—'}</dd>
+                      <dd className="details__stat-value">{meal.strCategory || '-'}</dd>
                     </div>
                     <div>
                       <dt className="details__stat-label">Ingredients</dt>
@@ -98,7 +98,7 @@ export default function Details() {
                         {meal.strYoutube ? (
                           <a href={meal.strYoutube} target="_blank" rel="noreferrer noopener">YouTube ↗</a>
                         ) : (
-                          '—'
+                          '-'
                         )}
                       </dd>
                     </div>

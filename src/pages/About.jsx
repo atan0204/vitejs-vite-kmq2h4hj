@@ -7,7 +7,7 @@ import Button from '../components/ui/Button.jsx'
 const STEPS = [
   {
     title: 'Browse the library',
-    body: 'Pick a cuisine category — Italian, Malaysian, Vegan, Seafood — and scan the cards.',
+    body: 'Pick a cuisine category (Italian, Malaysian, Vegan, Seafood) and scan the cards.',
   },
   {
     title: 'Open a recipe',
@@ -46,14 +46,10 @@ export default function About() {
                 <a href="https://www.themealdb.com/" target="_blank" rel="noreferrer noopener" style={{ color: 'var(--color-primary)', textDecoration: 'underline', textUnderlineOffset: '3px' }}>
                   TheMealDB
                 </a>
-                {' '}— a free, community-maintained database of dishes
+                , a free, community-maintained database of dishes
                 with thousands of cuisine entries and step-by-step instructions.
               </p>
-              <p style={{ marginTop: '1.25rem', color: 'var(--color-text-muted)', fontSize: '1.05rem', lineHeight: 1.7 }}>
-                There's no paywall, no autoplaying videos, and no thirty-paragraph
-                introduction before the recipe. Just clean cards, a fast search,
-                and ingredients you can actually read on your phone while shopping.
-              </p>
+
               <div style={{ marginTop: '2rem', display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
                 <Button as={Link} to="/explore" variant="primary" withArrow>
                   Start exploring
@@ -89,7 +85,7 @@ export default function About() {
             <blockquote>
               “Cooking is at once child's play and adult joy. And cooking done with care is an act of love.”
             </blockquote>
-            <cite>— Craig Claiborne</cite>
+            <cite>Craig Claiborne</cite>
           </motion.div>
 
           <motion.section
@@ -139,7 +135,7 @@ export default function About() {
               <p className="section__lead" style={{ marginTop: '1rem' }}>
                 React for the UI, React Router for navigation, Motion.dev for the
                 small animations that make pages feel alive, and SimpleParallax for
-                the hero images that breathe on scroll.
+                the hero imagesl.
               </p>
             </header>
           </motion.section>

@@ -11,12 +11,12 @@ const FEATURES = [
   {
     icon: 'i',
     title: 'Hand-picked ingredients',
-    body: 'Every recipe lists exactly what you need — no scavenger hunts through the pantry.',
+    body: 'Every recipe lists exactly what you need, no scavenger hunts through the pantry.',
   },
   {
     icon: 'ii',
     title: 'Cuisines from anywhere',
-    body: 'Italian classics, Malaysian street food, Mexican comfort — explore over twenty regional cuisines.',
+    body: 'Italian classics, Malaysian street food, Mexican comfort. Explore over twenty regional cuisines.',
   },
   {
     icon: 'iii',
@@ -58,7 +58,7 @@ export default function Home() {
               transition={{ delay: 0.3, duration: 0.6 }}
             >
               Saveur is a quiet place to find your next favourite dish. Search by name,
-              filter by cuisine, and rediscover the joy of cooking — one well-written
+              filter by cuisine, and rediscover the joy of cooking, one well-written
               recipe at a time.
             </motion.p>
             <motion.div
@@ -136,7 +136,7 @@ export default function Home() {
           >
             <span className="section__eyebrow">Why Saveur</span>
             <h2 id="features-title" className="section__title">Built for the way you actually cook.</h2>
-            <p className="section__lead">No paywalls, no life stories before the recipe — just clean information so you can get into the kitchen sooner.</p>
+            <p className="section__lead">No paywalls, no life stories before the recipe, just clean information so you can get into the kitchen sooner.</p>
           </motion.header>
 
           <div className="feature-grid">
@@ -177,7 +177,7 @@ export default function Home() {
             From street stalls to weeknight dinners.
           </h2>
           <p className="parallax-band__lead">
-            Every recipe in Saveur comes from TheMealDB — a community-driven library
+            Every recipe in Saveur comes from TheMealDB, a community-driven library
             of dishes from cooks around the world.
           </p>
           <Button as={Link} to="/explore" variant="primary" withArrow>

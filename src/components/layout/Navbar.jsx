@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div className="container navbar__inner">
-        <NavLink to="/" className="navbar__brand" aria-label="Saveur — Home">
+        <NavLink to="/" className="navbar__brand" aria-label="Saveur Home">
           <span className="navbar__brand-mark" aria-hidden="true">S</span>
           <span>Saveur</span>
         </NavLink>

@@ -19,31 +19,9 @@ export default function Footer() {
               <li><Link to="/about">About</Link></li>
             </ul>
           </div>
-          <div>
-            <h2 className="footer__heading">Credit</h2>
-            <ul className="footer__list">
-              <li>
-                <a href="https://www.themealdb.com/" target="_blank" rel="noreferrer noopener">
-                  TheMealDB API ↗
-                </a>
-              </li>
-              <li>
-                <a href="https://motion.dev/" target="_blank" rel="noreferrer noopener">
-                  Motion.dev ↗
-                </a>
-              </li>
-              <li>
-                <a href="https://simpleparallax.com/" target="_blank" rel="noreferrer noopener">
-                  SimpleParallax ↗
-                </a>
-              </li>
-            </ul>
-          </div>
+
         </div>
-        <div className="footer__bottom">
-          <span>© {new Date().getFullYear()} Saveur. Built for Assignment 3.</span>
-          <span>Made with care.</span>
-        </div>
+
       </div>
     </footer>
   )

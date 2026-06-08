@@ -68,7 +68,7 @@ export default function Explore() {
 
             {categoriesError && (
               <p className="explore__results-info" role="alert">
-                Couldn't load categories — showing {activeCategory} only.
+                Couldn't load categories. Showing {activeCategory} only.
               </p>
             )}
 
